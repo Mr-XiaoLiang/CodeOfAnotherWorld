@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.26",
+    "@vuepress/plugin-markdown-chart": "^2.0.0-rc.118",
+    "@vuepress/theme-default": "^2.0.0-rc.118",
+    "markmap-lib": "^0.18.12",
+    "markmap-toolbar": "^0.18.12",
+    "markmap-view": "^0.18.12",
+    "mermaid": "^11.12.1",
+    "sass-embedded": "^1.93.3",
+    "vuepress": "^2.0.0-rc.26"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
