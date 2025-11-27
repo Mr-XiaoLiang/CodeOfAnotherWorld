@@ -6,4 +6,6 @@ export const routes = Object.fromEntries([
   ["/idea/Nature.html", { loader: () => import(/* webpackChunkName: "idea_Nature.html" */"D:/Develop/Doc/CodeOfAnotherWorld/docs/.vuepress/.temp/pages/idea/Nature.html.js"), meta: {"title":"环境事件素材"} }],
   ["/word/Situation.html", { loader: () => import(/* webpackChunkName: "word_Situation.html" */"D:/Develop/Doc/CodeOfAnotherWorld/docs/.vuepress/.temp/pages/word/Situation.html.js"), meta: {"title":"势力结构"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"D:/Develop/Doc/CodeOfAnotherWorld/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/idea/", { loader: () => import(/* webpackChunkName: "idea_index.html" */"D:/Develop/Doc/CodeOfAnotherWorld/docs/.vuepress/.temp/pages/idea/index.html.js"), meta: {"title":"Idea"} }],
+  ["/word/", { loader: () => import(/* webpackChunkName: "word_index.html" */"D:/Develop/Doc/CodeOfAnotherWorld/docs/.vuepress/.temp/pages/word/index.html.js"), meta: {"title":"Word"} }],
 ]);
