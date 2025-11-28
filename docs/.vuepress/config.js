@@ -20,7 +20,7 @@ const vuePressOptions = {
     }
     //
   }),
-  base: '/pages/',
+  base: '/WorldWiki/',
   dest: '${sourceDir}/../pages',
   title: '代码的另一个世界',
   plugins: [

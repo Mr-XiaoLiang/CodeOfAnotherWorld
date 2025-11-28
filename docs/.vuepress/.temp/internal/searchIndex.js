@@ -1,63 +1,5 @@
 export const SEARCH_INDEX = [
   {
-    "title": "剧情",
-    "headers": [
-      {
-        "level": 2,
-        "title": "初入社会",
-        "slug": "初入社会",
-        "link": "#初入社会",
-        "children": [
-          {
-            "level": 3,
-            "title": "活下去",
-            "slug": "活下去",
-            "link": "#活下去",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "战魂族",
-            "slug": "战魂族",
-            "link": "#战魂族",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "白色财团",
-        "slug": "白色财团",
-        "link": "#白色财团",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "红色联盟",
-        "slug": "红色联盟",
-        "link": "#红色联盟",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "冲突",
-        "slug": "冲突",
-        "link": "#冲突",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "外面的世界",
-        "slug": "外面的世界",
-        "link": "#外面的世界",
-        "children": []
-      }
-    ],
-    "path": "/Plot.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "CodeOfAnotherWorld",
     "headers": [],
     "path": "/",
@@ -65,7 +7,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "环境事件素材",
+    "title": "环境事件",
     "headers": [
       {
         "level": 2,
@@ -126,7 +68,21 @@ export const SEARCH_INDEX = [
         ]
       }
     ],
-    "path": "/idea/Nature.html",
+    "path": "/event/Nature.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "宇宙事件",
+    "headers": [],
+    "path": "/event/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "世界",
+    "headers": [],
+    "path": "/word/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -141,20 +97,6 @@ export const SEARCH_INDEX = [
     "title": "",
     "headers": [],
     "path": "/404.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Idea",
-    "headers": [],
-    "path": "/idea/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Word",
-    "headers": [],
-    "path": "/word/",
     "pathLocale": "/",
     "extraFields": []
   }

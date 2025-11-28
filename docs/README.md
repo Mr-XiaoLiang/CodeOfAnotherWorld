@@ -1,4 +1,5 @@
 # CodeOfAnotherWorld 
 
-- [势力结构](./word/Situation.md)
-- [剧情](./Plot.md)
+> 另一个代码构成的世界。
+> 
+> 这是它的设定集合。
