@@ -47,3 +47,5 @@ git push -f $REPO_URL $DEPLOY_BRANCH
 
 # 回到最初的目录
 cd -
+
+rm -rf "$PUBLISH_DIR"
