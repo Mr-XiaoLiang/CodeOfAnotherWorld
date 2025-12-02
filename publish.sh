@@ -24,13 +24,13 @@ OUTPUT_DIR=$(pwd)
 cd ..
 
 # 删除旧的发布目录
-rm -rf $PUBLISH_DIR
+rm -rf "$PUBLISH_DIR"
 
 # 将导出内容的目录，移动到当前构建目录的外侧（避免导出内容目录的 .git 目录和构建工程的 .git 目录冲突）
-mv $OUTPUT_DIR $PUBLISH_DIR
+mv "$OUTPUT_DIR" "$PUBLISH_DIR"
 
 # 进入发布目录
-cd $PUBLISH_DIR
+cd "$PUBLISH_DIR"
 
 # 记录当前目录（导出内容的目录）
 PUBLISH_DIR=$(pwd)
@@ -43,7 +43,7 @@ git add -A
 git commit -m 'publish'
 
 # 通关Git发布
-git push -f $REPO_URL $DEPLOY_BRANCH
+git push -f "$REPO_URL" "$DEPLOY_BRANCH"
 
 # 回到最初的目录
 cd -
