@@ -11,6 +11,7 @@ const vuePressOptions = {
     // 开启侧边栏, 自动生成
     sidebar: "structure",
     navbar: [],
+    docsBranch: 'main',
     navbarLayout: {
         start: ["Brand"],
         center: ["Links"],
