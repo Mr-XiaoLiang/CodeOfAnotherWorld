@@ -3,6 +3,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { defineUserConfig } from 'vuepress'
 import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
 import { searchPlugin } from '@vuepress/plugin-search'
+import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right';
 
 const vuePressOptions = {
   bundler: viteBundler(),
@@ -10,13 +11,24 @@ const vuePressOptions = {
     // 开启侧边栏, 自动生成
     sidebar: "structure",
     navbar: [],
+    docsBranch: 'main',
     navbarLayout: {
         start: ["Brand"],
         center: ["Links"],
         end: ["Language", "Repo", "Outlook", "Search"],
     },
     plugins: {
-        search: {},
+        search: {
+            // 配置项
+            locales: {
+                '/': {
+                    placeholder: 'Search',
+                },
+                '/zh/': {
+                    placeholder: '搜索',
+                },
+            },
+        },
     }
     //
   }),
@@ -32,17 +44,7 @@ const vuePressOptions = {
         // 启用 PlantUML
         plantuml: true,
     }),
-    searchPlugin({
-        // 配置项
-        locales: {
-            '/': {
-                placeholder: 'Search',
-            },
-            '/zh/': {
-                placeholder: '搜索',
-            },
-        },
-    }),
+    [vuepressPluginAnchorRight()]
   ],
 }
 
