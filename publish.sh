@@ -29,6 +29,11 @@ rm -rf "$PUBLISH_DIR"
 # 将导出内容的目录，移动到当前构建目录的外侧（避免导出内容目录的 .git 目录和构建工程的 .git 目录冲突）
 mv "$OUTPUT_DIR" "$PUBLISH_DIR"
 
+# 复制Bing的站点认证文件
+cp ./site_auth/BingSiteAuth.xml "$PUBLISH_DIR"
+# 复制Google的站点认证文件
+cp ./site_auth/google447088e32261c4cf.html "$PUBLISH_DIR"
+
 # 进入发布目录
 cd "$PUBLISH_DIR"
 
