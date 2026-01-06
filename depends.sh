@@ -10,6 +10,8 @@ npm install -D vuepress-theme-hope
 npm install -D @vuepress/plugin-markdown-chart
 # 右侧目标锚点
 npm install -D vuepress-plugin-anchor-right
+# 站点地图
+npm i -D @vuepress/plugin-sitemap@next
 
 # 修复依赖
 npm audit fix

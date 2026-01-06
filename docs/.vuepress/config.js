@@ -29,6 +29,10 @@ const vuePressOptions = {
                 },
             },
         },
+        sitemap: {
+            // https://ecosystem.vuejs.press/zh/plugins/seo/sitemap/config.html#hostname
+            hostname: "https://mr-xiaoliang.github.io/"
+        }
     }
     //
   }),
